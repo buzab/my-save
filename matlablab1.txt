@@ -3,3 +3,5 @@ f=imread('fig0343.jpg');
 size(f);
 subplot(1,2,1),imshow(f);
 subplot(1,2,2),imhist(f);
+subplot(4,2,1); imshow(f)
+subplot(4,2,2);imhist(f)
