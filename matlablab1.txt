@@ -1,5 +1,5 @@
-clc,clear all,close all;
-f=imread('fig0345.jpg');
+clc,clear all,close all
+f=imread('fig0343.jpg')
 size(f);
 subplot(1,2,1),imshow(f);
 subplot(1,2,2),imhist(f);
