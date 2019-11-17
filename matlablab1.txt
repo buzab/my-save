@@ -3,3 +3,5 @@ f=imread('fig0343.jpg');
 size(f);
 subplot(1,2,1),imshow(f);
 subplot(1,2,2),imhist(f);
+f1=imadjust(f,[0.01 0.99], [])
+a1=imadjust(a,[0.01 0.99], [])
